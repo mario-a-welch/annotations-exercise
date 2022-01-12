@@ -28,7 +28,7 @@ public class Author extends Person {
         books.add(book);
     }
 
-    @Override
+//    @Override - Commented out since method does not override or implement a method from a supertype
     public String sortName() {
         return String.format("%s, %s", lastName, firstName);
     }
